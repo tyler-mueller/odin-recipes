@@ -1,0 +1,47 @@
+body {
+  background-color: #121212;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: hsl(0, 0%, 87%);
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+div.content {
+  background-color: hsl(0, 0%, 10%);
+  padding: 2%;
+}
+
+.image,
+.return,
+div.ingredients,
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Cormorant SC", serif;
+  font-weight: 900;
+  color: #D4A00D; 
+}
+
+h2 {
+  font-family: "Cormorant Upright", serif;
+}
+
+.link {
+  color: #b19cd9;
+}
+
+li {
+  margin-top: 8px;
+}
+
+ul {
+display: inline-block;
+text-align: left;
+}
+
