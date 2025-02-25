@@ -1,16 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #121212;
   font-family: "Cormorant", serif;
   font-weight: 400;
   font-size: 22px;
   color: hsl(0, 0%, 87%);
-  padding-left: 25%;
-  padding-right: 25%;
 }
 
-div.content {
+.link {
+  color: #b19cd9;
+}
+
+div.recipe-list {
   background-color: hsl(0, 0%, 10%);
-  padding: 2%;
+  border: solid 5px #D4A00D;
+  font-size: 1.75em;
+  border-radius: 24px;
+  width: 20em;
+  margin: 0.5em auto;
+  padding: 1em 1em;
+}
+
+a.return {
+  display: block;
+  margin: 0.25em auto;
+}
+
+div.upper-section {
+  background-color: hsl(0, 0%, 10%);
+  border: solid 5px #D4A00D;
+  font-size: 1em;
+  border-radius: 24px;
+  width: 30em;
+  margin: 0.65em auto;
+  padding: 1em 1em;
+}
+
+img {
+  width: 512px;
+  display: block;
+  border-radius: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.lower-section {
+  background-color: hsl(0, 0%, 10%);
+  border: solid 5px #D4A00D;
+  font-size: 1em;
+  border-radius: 24px;
+  width: 30em;
+  margin: 0.65em auto;
+  padding: 1em 1em;
+}
+
+ul {
+  display: inline-block;
+  margin: 0.75em auto;
+}
+
+li {
+  margin: 10px auto;
 }
 
 .image,
@@ -30,18 +83,5 @@ h2 {
 
 h2 {
   font-family: "Cormorant Upright", serif;
-}
-
-.link {
-  color: #b19cd9;
-}
-
-li {
-  margin-top: 8px;
-}
-
-ul {
-display: inline-block;
-text-align: left;
 }
 
